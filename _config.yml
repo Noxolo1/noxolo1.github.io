@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: nate.dev
+subtitle: A Personal Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  My personal website used to show off some of the various work I've done.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://noxolo1.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -25,12 +25,12 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author: Nate Wilson
+author_bio: Hi, my name is Nate :D. 
+author_email: "new002@ucsd.edu"
+author_location: California
+author_website_url: "noxolo1.github.io"
+typewrite-text: Welcome to my personal website. 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -50,11 +50,19 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: ucsd_logo.png
+                college_name: UC San Diego
+                college_url: https://ucsd.edu/
+                college_degree: Computer Science
+                description: Master of Science
+                visibility: true
+
+author_education_details:
+              - college_logo: ewu_logo.png
+                college_name: Eastern Washington University
+                college_url: https://ewu.edu
+                college_degree: Mathematics & Data Science
+                description: Bachelor of Science
                 visibility: true
 
 # Projects
